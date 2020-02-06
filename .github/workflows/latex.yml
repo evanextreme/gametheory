@@ -9,5 +9,5 @@ jobs:
       - name: Compile LaTeX document
         uses: dante-ev/latex-action@master
         with:
-          working_directory: report
+          working_directory: projreport
           root_file: projreport.tex
