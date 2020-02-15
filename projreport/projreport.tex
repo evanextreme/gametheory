@@ -30,7 +30,7 @@
 
 
 \begin{document}
-\title{Gamers Rise Up}
+\title{The Ransomware Report}
 \titlenote{Produces the permission block, and
   copyright information}
 %\subtitle{Extended Abstract}
@@ -44,6 +44,10 @@
 }
 
 \begin{abstract}
+  TBD
+
+% Information not rendered, but preserved because it's useful.
+\iffalse
   The abstract should be one or two paragraphs that
   summarize your paper. Abstracts are read independently
   from the rest of the paper so you cannot cite your paper
@@ -59,16 +63,33 @@
   The abstract is not an introduction or overview, but a summary that
   informs the reader of the context, content and contributions of your
   paper.
+\fi
 
 \end{abstract}
 
-\keywords{ACM proceedings, \LaTeX, text tagging}
+\keywords{Malware, Ransomware, Cryptography}
 
 \maketitle
 
-
 \section{Introduction}
 \label{introduction}
+    As technology continues to become more integral to the day-to-day operations of municipalities and businesses across the world, it becomes increasingly important to analyze the inherent risks that come with conducting business and storing important files in a digital world. One considerable threat to almost all organizations is ransomware: a type of malware that renders users' files inaccessible by encrypting them with a key known only to the attacker. This means the affected user may permanently lose access to important documents and data unless a large sum of money is paid or some other condition set by the malicious party is met. 
+    
+    In the last quarter of 2019, the average payment requested to release files from ransomware was \$84,116, but that number has been steadily increasing and culminated in a staggering average of \$190,946 in December of 2019. Over 200,000 organizations reported a ransomware infection in 2019, and experts project that this number will only increase in the coming years \cite{popper_2020}. In one high profile incident, the city of New Orleans was forced to declare a state of emergency in response to a December 2019 ransomware attack that crippled many of the city's computer systems and left citizens unable to access basic services like online payment systems and district court appointment scheduling \cite{Winder_2019}. 
+    
+    New Orleans is just one major example in a startling global trend; ransomware has also plagued large schools, businesses, and even hospitals across the world. The consequences of being infected with this malware are dire, and researchers and cybersecurity experts have yet to propose a general solution to effectively combat ransomware \cite{Norton_2018}. The goal of this paper is to study how ransomware takes control of a test environment in Windows, and determine what countermeasures can be implemented to effectively block this kind of attack or mitigate its damage.
+    
+    The testing methodology for studying this type of malware is relatively straightforward: First, the subject on the target machine will proceed to access a phishing email or some form of disguised link to a download that will contain the malicious code. Next, once the ransomware code is actually executed, mock files that are designed to simulate user data will be securely encrypted by the malware using the Advanced Encryption Standard (AES) with a key length of 128 bits, and an indication will display informing the user that their access to their files has been blocked. Lastly, the user will need to perform a particular action in order to have the files decrypted, which in the context of this project will involve the subject playing a challenging mini-game to have the files restored. 
+    
+    In most cases, a ransom in the form of cryptocurrency is demanded by the malicious actor - hence the term \emph{ransomware} \cite{Ransomware_background}. This paper utilizes a local and basic task as an alternative to a cryptocurrency transfer to preserve its focus on the malware and to avoid involving networked transfers. Once deployed and running on a test virtual machine through RIT's RLES service, the malware will be reverse-engineered in an attempt to find a way to detect it prior to execution, and a recovery method through an anti-malware tool will be created in order to recover the test user's files if encryption takes place.
+    
+    The particular technologies used to develop this malware were chosen to reflect the current state of personal computer (desktops, laptops, etc.) use by businesses, schools, and other large organizations in 2020. The target machine reflects an ordinary and freshly imaged enterprise copy of Windows, which is the predominant non-mobile operating system with over 80\% of the market share \cite{Netmarketshare_2020}. The languages and patterns chosen to develop the ransomware with were modelled off real-world examples of ransomware that have been released under an open source license. The language used to develop the ransomware is Python 3, but because standard Windows installations do not come with a Python interpreter pre-installed, the code needs to be transformed to actually run on the target machine. Before distribution, it is converted to a binary executable file that contains all necessary dependencies and a portable Python interpreter so that the executable is completely independent and able to be run.
+    
+    The remainder of this paper takes into consideration the practical approaches that will be taken with testing ransomware in a controlled environment. Section \ref{design considerations} details specifically what design elements were crucial to the development of this malware, and what other options were available in order to simulate an attack, but were ultimately either flawed or were outside the scope of this paper. Section \ref{architecture} discusses the structure and format of the project, including the considerations that were chosen to move forward with including operating system and language choice for the ransomware scripts. In detail, Section \ref{implementation} gives a step-by-step account of the process in executing this artificial malware, including how the payload containing the code is created, delivered, and what sort of files are taken over when the code is executed. After considering what the ransomware does, Section \ref{lessons learned} details the reflection process and what worked and did not work according to the original design plan, as well as what techniques helped to achieve the desired outcome for the project. Section \ref{ethics-legal} discusses the ethical and legal consequences of releasing this malware out to the public without explicit and written consent outside of a test environment, and what it could mean for the future of cybersecurity. Lastly, \ref{current status and future work} discusses where the project currently stands in comparison to the project plan, and what work could be done to improve the project in the future.
+    
+    
+
+\begin{comment}
 
 Use three or four paragraphs to present an overview of your project.
 
@@ -86,10 +107,13 @@ future.
 {\bf Note: This specific file is a generic template so the
   section titles may not fit your specific needs so feel
   free to change them as needed.}
+\end{comment}
 
 \section{Design Considerations}
 \label{design considerations}
-
+TBD
+% Information not rendered, but preserved because it's useful.
+\iffalse
 Use this section to describe the basic design of your project. Include
 the extensions you proposed either in this section or in section
 \ref{architecture} or in section \ref{implementation}, wherever it
@@ -101,41 +125,57 @@ doing to address this problem. Make sure your literature survey is
 fairly complete, and you must cite your sources correctly per ACM
 style guidelines (and of course, you need to use \LaTeX and \BibTeX
 correctly).
+\fi
 
 \section{Architecture}
 \label{architecture}
-
+TBD
+% Information not rendered, but preserved because it's useful.
+\iffalse
 Use this section to describe the overall architecture of your database
 engine, and implementation of your
 project.
+\fi
 
 \section{Implementation}
 \label{implementation}
-
+TBD
+% Information not rendered, but preserved because it's useful.
+\iffalse
 Use this section to describe the overall implementation of your
 project.
+\fi
 
 \section{Lessons Learned}
 \label{lessons learned}
 
 \subsection{Response to Investigating Teams}
 \label{response}
-
+TBD
+% Information not rendered, but preserved because it's useful.
+\iffalse
 Discuss how you addressed the issues, if any, that were identified by
 the investigating teams. Be specific.
+\fi
 
 \subsection{Other Lessons}
 \label{other lessons}
-
+TBD
+% Information not rendered, but preserved because it's useful.
+\iffalse
 Use this section to describe mistakes you made and corrected (or did
 not get a chance to correct including why you didn't). Also describe
 what all you learned during the course of this effort; this section,
 like the others, plays a critical component in determining your final
 grade.
+\fi
 
 \section{Ethical and Legal Issues}
 \label{ethics-legal}
 
+TBD
+% Information not rendered, but preserved because it's useful.
+\iffalse
 This is not an optional section: it is required. Discuss laws that
 apply to your project area, as appropriate. If there are breaches that
 impact the area, discuss those in terms of the laws that were broken.
@@ -143,14 +183,18 @@ impact the area, discuss those in terms of the laws that were broken.
 Discuss ethical issues underlying the project area. Provide guidance
 to ethical issues relevant to this project area. Use the ACM Code of Conduct
 to organize this section.
-
+\fi
 
 \section{Current Status \& Future Work}
 \label{current status and future work}
 
+TBD
+% Information not rendered, but preserved because it's useful.
+\iffalse
 Use this section to describe the current status of your work
 and what else should be done. Also, discuss what further directions
 your work can be taken by others.
+\fi
 
 \begin{comment}
 \subsection{Tables, Figures, and Citations/References}
