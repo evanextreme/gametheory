@@ -6,9 +6,9 @@ https://github.com/pypa/sampleproject
 
 # Always prefer setuptools over distutils
 from setuptools import setup, find_packages
-  
+
 setup(
-    name='JustAGame',
+    name='gametheory',
     version='1.0dev',
     packages=['src', ],
     license='Creative Commons Attribution-Noncommercial-Share Alike license',
