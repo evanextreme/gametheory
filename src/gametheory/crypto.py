@@ -65,5 +65,5 @@ if __name__ == "__main__":
     user_crypt = Crypto(32, 16)
     print("What's up friends. Here's a test of our encryption / decryption with a nice new rando key. Throw a file in there just in case you dont trust us")
     enc_filename = input('File to be encrypted: ')
-    user_crypt.encrypt_file(filename)
-    user_crypt.decrypt_file(filename)
+    user_crypt.encrypt_file(enc_filename)
+    user_crypt.decrypt_file(enc_filename)
