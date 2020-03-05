@@ -21,8 +21,8 @@ def main():
         input(
             "Press enter to forever encrypt every single one of those [ENTER] ")
         print("whatever")
-        crypto.encrypt_file_list(files)
-
+        for f in files:
+            crypto.encrypt_file(f)
 
 if __name__ == "__main__":
     main()
