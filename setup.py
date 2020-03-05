@@ -9,14 +9,18 @@ from setuptools import setup, find_packages
 
 setup(
     name='gametheory',
-    version='1.0dev',
-    packages=['src', ],
+    version='1.0p2',
+    packages=find_packages('src'),
+    package_dir={'': 'src'},
     license='Creative Commons Attribution-Noncommercial-Share Alike license',
     long_description=open('README.md').read(),
     python_requires='>=3.6',
-    install_requires=['cryptography'],  # Optional
+    install_requires=['cryptography', 'termcolor'],
     extras_require={  # Optional
         'dev': ['check-manifest'],
         'test': ['coverage'],
     },
+    entry_points={
+        'console_scripts': ['gametheory=gametheory.main:main'],
+    }
 )

