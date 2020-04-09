@@ -166,7 +166,9 @@ class SnakeGame():
                     self.pen.write("You did it!! Decrypting files...",
                                    align="center",
                                    font=("Courier", 24, "normal"))
-                    time.sleep(5)
+                    playsound(os.path.join(os.path.split(
+                        __file__)[0], "audio/outro.wav"))
+
                     self.wn.bye()
                     break
 
@@ -216,5 +218,3 @@ class SnakeGame():
                         align="center", font=("Courier", 24, "normal"))
 
             time.sleep(self.delay)
-
-        playsound(os.path.join(os.path.split(__file__)[0], "audio/outro.wav"))
