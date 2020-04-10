@@ -1,9 +1,6 @@
 from gametheory.crypto import Crypto
 from gametheory.game import SnakeGame
-from termcolor import cprint
-import argparse
 import time
-import re
 import os
 
 KEY_SIZE = 32
