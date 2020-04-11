@@ -10,3 +10,8 @@ Credits to [@TokyoEdTech](https://github.com/tokyoedtech) for the implementation
 
 ## Usage
 
+To test this software, first ensure you are on a test machine that does not have any important data. Then, download the document that would be attached to a phishing email [at this link](https://github.com/evanextreme/CSCI455/blob/master/phish/important_document.docm). Once this document is opened, follow the (malicious!) directions in the document that instruct you to click the ribbon notification to "Enable Editing" and then "Enable Content." This document was (safely) tested among some of the developer's peers and less technical friends and was consistently rated as highly convincing. The document will then download the most current version of the malware from an external server using an obfuscated VBA macro and will automatically execute it and begin the process of encrypting the machine's files.
+
+## Notes on Phase 3
+
+To be filled in
