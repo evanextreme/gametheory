@@ -14,4 +14,6 @@ To test this software, first ensure you are on a test machine that does not have
 
 ## Notes on Phase 3
 
-To be filled in
+Due to the very large amount of time and effort it takes to re-obfuscate the macro attached to the document mentioned above and keep it updated with the most current version of the exe, it has not been updated for phase 3. The macro downloads an older version of the ransomware that does not involve the snake game, but the .exe included in this repository and our submission is the most up-to-date version. The macro and document will be updated for the final phase and submission; the team felt that it was in the best interests of the project to continue furthering the work on the code itself as well as the decryption tool and the writeup.
+
+The most recent versions of Windows Defender on Windows 10 detect and warn the user about the macro in our document, which is unfortunate. The phase 2 obfuscated version still remains undetected by 49 / 61 modern antiviruses as tested by Virustotal.com and will remain undetected on older versions of Windows 10 that have not updated their security definitions (this is a non-trivial amount of users). Much work has been done to try to circumvent this detection, but nothing the group has tried has been fruitful so far.
