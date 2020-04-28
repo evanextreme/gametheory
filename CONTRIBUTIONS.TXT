@@ -1,6 +1,11 @@
 Evan Hirsh:
 
 Andrew Giannone:
-Did everything lol these other guys were dead weight. Imagine not being a VBA god.
+- Researched common methods of malware distribution as well as ways of circumventing antivirus detection. 
+- Created the phishing email and document that are sent to a target, as well as the visual basic macro that downloads and executes the hosted executable. 
+- Obfuscated the visual basic macro contained in the document to avoid detection by most tested antivirsuses. 
+- Researched and developed a proof of concept for decrypting the user's files by injecting code into the Game Theory process using Pyrasite.
+- Created a distributable Virtual Machine image with the target version of Windows and Microsoft Office installed for use in testing, and helped test the malware as it was developed
+- Worked alongside the other members of the team to write and develop the report and readme
 
 Aidan Rubenstein:
