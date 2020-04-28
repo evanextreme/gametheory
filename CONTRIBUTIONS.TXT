@@ -9,3 +9,8 @@ Andrew Giannone:
 - Worked alongside the other members of the team to write and develop the report and readme
 
 Aidan Rubenstein:
+- Created and contributed to the project report in all major sections.
+- Researched the ethical limitations of the project according to the ACM Code of Ethics.
+- Analyzed the malware in its working state on a test machine to look at possible workarounds for an anti-malware solution.
+- Researched prior work in the field of ransomware to identify weaknesses in either encryption/decryption schemas
+- Organized team discussions and project deliverables as it pertained to phase submissions and code implementation
