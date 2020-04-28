@@ -14,3 +14,10 @@ Aidan Rubenstein:
 - Analyzed the malware in its working state on a test machine to look at possible workarounds for an anti-malware solution.
 - Researched prior work in the field of ransomware to identify weaknesses in either encryption/decryption schemas
 - Organized team discussions and project deliverables as it pertained to phase submissions and code implementation
+
+Evan Hirsh:
+- Designed the command line interface, countermeasures to prevent malicious spread, and basic user flow
+- Implemented the basic AES protocols, key generation, and and wrapper to allow for easy encryption
+- Reconstructed an open source python game into a class based module, allowing it to be dynamically loaded post encryption and implementing audio files
+- Created a continuous delivery system for our repository which automatically linted our code, checked our latex file for errors, and compiled the executable
+- Proofread and edited the project report for each iteration, updating information on the project's design as it changed
